@@ -12,8 +12,8 @@ export default class Resume extends Component {
             <div>
                 <h1>{firstName + " " + lastName}</h1>
                 <h1>{emailAddress}</h1>
-                <h1>{city}</h1>
                 <h1>{phoneNumber}</h1>
+                <h1>{city}</h1>
             </div>
         );
     }
