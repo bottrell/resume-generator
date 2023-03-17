@@ -41,6 +41,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="section" id="input">
+          <h1>General Information</h1>
           <form id="topForm">
             <input type="text" onChange={this.handleChange} id="firstName" placeholder="First Name" />
             <input type="text" onChange={this.handleChange} id="lastName" placeholder="Last Name" />
@@ -49,6 +50,20 @@ class App extends Component {
             <input type="text" onChange={this.handleChange} id="city" placeholder="City" />
           </form>
 
+          <h1>Work History</h1>
+          <form id="middleForm">
+          </form>
+
+          <h1>Education</h1>
+          <form id="bottomForm">
+          </form>
+
+          <h1>Certifications</h1>
+          <form id="certForm">
+          </form>
+
+          <h1>Skills</h1>
+          <p>gotta figure out how this part is gonna work</p>
         </div>
         <div className="section" id="output">
           <Resume info={this.state} />

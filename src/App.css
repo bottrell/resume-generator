@@ -2,24 +2,40 @@
   text-align: center;
 }
 
+h1 {
+  color: #CDC6AE;
+}
+
 .container {
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   padding: 20px;
   height: 100%;
-  margin: 20px;
   flex-wrap: wrap;
   min-width: 650px;
+  background-color: #187795;
+}
+
+#input {
+  background-color: #38686A;
 }
 
 .section {
   width: 50%;
-  border: 2px solid green;
+  border: 2px solid black;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px;
   min-width: 500px;
   max-width: 500px;
+}
+
+#output {
+  background-color: white;
+}
+
+#output h1 {
+  color: black;
 }
 
 form {
@@ -29,4 +45,6 @@ form {
 input {
   padding: 10px;
   margin: 2px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
