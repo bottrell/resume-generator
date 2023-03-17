@@ -6,10 +6,15 @@ export default class Resume extends Component {
     }
 
     render() {
-        const { name } = this.props.info;
+        const { firstName, lastName, emailAddress, city, phoneNumber } = this.props.info;
 
         return (
-            <h1>{name}</h1>
+            <div>
+                <h1>{firstName + " " + lastName}</h1>
+                <h1>{emailAddress}</h1>
+                <h1>{city}</h1>
+                <h1>{phoneNumber}</h1>
+            </div>
         );
     }
 }

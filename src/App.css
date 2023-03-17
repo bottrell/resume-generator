@@ -21,3 +21,12 @@
   min-width: 500px;
   max-width: 500px;
 }
+
+form {
+  display: grid;
+}
+
+input {
+  padding: 10px;
+  margin: 2px;
+}
